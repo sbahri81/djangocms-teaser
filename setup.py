@@ -27,8 +27,7 @@ setup(
     url='https://github.com/divio/djangocms-teaser',
     packages=[
         'djangocms_teaser',
-        'djangocms_teaser.migrations',
-        'djangocms_teaser.south_migrations'
+        'djangocms_teaser.migrations'
     ],
     license='LICENSE.txt',
     platforms=['OS Independent'],

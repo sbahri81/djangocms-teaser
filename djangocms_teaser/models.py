@@ -13,10 +13,8 @@ except ImportError:
         for information
         """
         return instance.get_media_path(filename)
-from cms.utils.compat.dj import python_2_unicode_compatible
 
 
-@python_2_unicode_compatible
 class Teaser(CMSPlugin):
     """
     A Teaser
